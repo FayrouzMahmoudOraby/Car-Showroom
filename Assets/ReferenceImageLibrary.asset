@@ -26,4 +26,14 @@ MonoBehaviour:
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Aston-Martin
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: 596aa113a6e35aa45a4e83be2faf8cfc, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5158939743833569325
+      m_GuidHigh: 18331716644939352475
+    m_SerializedTextureGuid:
+      m_GuidLow: 17583220564978386210
+      m_GuidHigh: 1527925561808934218
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: AstonMartin2
+    m_Texture: {fileID: 2800000, guid: a6e1452225f1f4044a55dc0234483415, type: 3}
