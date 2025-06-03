@@ -38,16 +38,16 @@ public class ImageTracker : MonoBehaviour
  }
 
  //Update tracking position
- foreach (var trackedImage in eventArgs.updated)
- {
- foreach (var gameObject in ARObjects)
- {
- if(gameObject.name == trackedImage.name)
- {
- gameObject.SetActive(trackedImage.trackingState == TrackingState.Tracking);
- }
- }
- }
+        foreach (var trackedImage in eventArgs.updated)
+        {
+        foreach (var gameObject in ARObjects)
+        {
+        if(gameObject.name == trackedImage.name)
+        {
+        gameObject.SetActive(trackedImage.trackingState == TrackingState.Tracking);
+        }
+        }
+        }
 
- }
+}
 }
