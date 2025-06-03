@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class EngineSoundPlayerToggle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource engineAudioSource;
+    private bool isPlaying = false;
+
+    public void ToggleEngineSound()
     {
-        
+        if (isPlaying)
+            StopEngineSound();
+        else
+            PlayEngineSound();
+
+        isPlaying = !isPlaying;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayEngineSound()
     {
-        
+        if (engineAudioSource == null) return;
+        engineAudioSource.Play();
+    }
+
+    public void StopEngineSound()
+    {
+        if (engineAudioSource == null) return;
+        engineAudioSource.Stop();
+        engineAudioSource.time = 0f; 
     }
 }
+
