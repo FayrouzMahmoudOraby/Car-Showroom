@@ -7,11 +7,11 @@ public class MenuBtns : MonoBehaviour
 {
     public void OpenMarkerless()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("MarkerLess");
     }
 
     public void OpenMarkerBased()
     {
-        SceneManager.LoadScene(0); 
+        SceneManager.LoadScene("SampleScene"); 
     }
 }

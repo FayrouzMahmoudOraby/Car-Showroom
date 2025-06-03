@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MarkerBased.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main Menue.unity
     guid: ee6c3068eea2ebc45ba60c5f921a57a5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MarkerLess.unity
     guid: 297ef72daae96ec4d9bae8837e697713
   - enabled: 1
