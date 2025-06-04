@@ -13,7 +13,7 @@ public class ColorWheel : MonoBehaviour, IPointerDownHandler, IDragHandler
     {
         rawImage = GetComponent<RawImage>();
 
-        // Try to get Texture2D from RawImage texture (make sure it's readable)
+
         wheelTexture = rawImage.texture as Texture2D;
 
         if (wheelTexture == null)
